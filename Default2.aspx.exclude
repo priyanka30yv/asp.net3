@@ -1,0 +1,28 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+                       <asp:Label ID="Label1" runat="server" Text="num1"></asp:Label>
+            <asp:TextBox ID="Textnum1" runat="server"></asp:TextBox>
+           <br />
+            <asp:Label ID="Label2" runat="server" Text="num2"></asp:Label>
+            <asp:TextBox ID="Textnum2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+           <br />
+            <asp:Button runat="server" Text="Button" OnClick="Unnamed1_Click" ID="lblAns" />
+            <br />
+             <br />
+              <asp:Label ID="Label3" runat="server" Text="ans1"></asp:Label>
+
+
+        </div>
+    </form>
+</body>
+</html>
